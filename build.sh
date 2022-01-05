@@ -11,7 +11,7 @@ KERNEL_DIR="$(pwd)"
 ZIPNAME="aRise-HMP"
 
 # Specify compiler ( eva , azure , proton , arter , aosp & nexus )
-COMPILER=aosp
+COMPILER=azure
 
 # Device Name and Model
 MODEL=Redmi Note 7
