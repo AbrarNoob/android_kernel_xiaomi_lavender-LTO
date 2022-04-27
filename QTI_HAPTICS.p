@@ -94,8 +94,8 @@ diff --git a/arch/arm64/configs/lavender-perf_defconfig b/arch/arm64/configs/lav
 index affa3abe243b..b6daa426d8de 100644
 --- a/arch/arm64/configs/lavender-perf_defconfig
 +++ b/arch/arm64/configs/lavender-perf_defconfig
-@@ -4067,7 +4067,8 @@ CONFIG_ARM_SMMU=y
- # CONFIG_MSM_PFE_WA is not set
+@@ -4067,7 +4067,8 @@ CONFIG_IOMMU_IO_PGTABLE_FAST=y
+ CONFIG_ARM_SMMU=y
  CONFIG_QCOM_COMMON_LOG=y
  CONFIG_MSM_SMEM=y
 -CONFIG_QPNP_HAPTIC=y
@@ -103,7 +103,7 @@ index affa3abe243b..b6daa426d8de 100644
 +CONFIG_INPUT_QTI_HAPTICS=y
  CONFIG_QPNP_PBS=y
  CONFIG_MSM_SMD=y
- # CONFIG_MSM_SMD_DEBUG is not set
+ CONFIG_MSM_GLINK=y
 diff --git a/drivers/input/misc/Kconfig b/drivers/input/misc/Kconfig
 index 686f33b70ac1..bab0081c2c4e 100644
 --- a/drivers/input/misc/Kconfig
